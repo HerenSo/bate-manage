@@ -25,9 +25,34 @@ export default new Router({
                     meta: { title: '自定义图标' }
                 },
                 {
-                    path: '/table',
-                    component: resolve => require(['../components/page/BaseTable.vue'], resolve),
-                    meta: { title: '基础表格' }
+                    path: '/area',
+                    component: resolve => require(['../components/page/contentManage/Area.vue'], resolve),
+                    meta: { title: '区域管理' }
+                },
+                {
+                    path: '/commodity',
+                    component: resolve => require(['../components/page/contentManage/Area.vue'], resolve),
+                    meta: { title: '商品管理' }
+                },
+                {
+                    path: '/order',
+                    component: resolve => require(['../components/page/contentManage/Area.vue'], resolve),
+                    meta: { title: '订单管理' }
+                },
+                {
+                    path: '/helpCenter',
+                    component: resolve => require(['../components/page/contentManage/Area.vue'], resolve),
+                    meta: { title: '帮助中心' }
+                },
+                {
+                    path: '/telephone',
+                    component: resolve => require(['../components/page/contentManage/Area.vue'], resolve),
+                    meta: { title: '电话管理' }
+                },
+                {
+                    path: '/stationSet',
+                    component: resolve => require(['../components/page/contentManage/StationSet.vue'], resolve),
+                    meta: { title: '全站设置' }
                 },
                 {
                     path: '/tabs',

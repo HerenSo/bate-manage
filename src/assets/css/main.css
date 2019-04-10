@@ -88,6 +88,30 @@ a {
     opacity: 0;
 }
 
+/*tab*/
+.tags{
+	height: 42px !important;
+	-webkit-box-shadow: 5px 5px 10px #ddd !important;
+    box-shadow: 5px 5px 10px #ddd !important;
+}
+.tags .tags-li{
+	margin: 0;
+	border-radius: 0;
+	height: 42px;
+	line-height: 42px;
+	border: none;
+	border-right: 1px solid #e9eaec;
+}
+.tags-close-box{
+	height: 42px !important;
+	line-height: 42px !important;
+}
+
+/*.el-menu-item*/
+.sidebar-el-menu > .el-menu-item,.el-submenu__title{
+	background-color: #3f526f !important;
+}
+
 /*BaseForm*/
 
 .form-box {
